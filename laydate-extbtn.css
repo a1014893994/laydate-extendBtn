@@ -1,0 +1,167 @@
+.laydate-theme-extbtn {
+    border: none!important;
+    border-radius: 5px!important;
+    overflow: hidden;
+}
+.laydate-theme-extbtn .layui-laydate-top {
+    height: 36px;
+    background-color: #c4c9ea;
+    color: #001071;
+    font-size: 14px;
+}
+.laydate-theme-extbtn .layui-laydate-top .laydate-top-btns {
+    position: absolute;
+    top: 9px;
+    left:10px;
+    height: 18px;
+    line-height: 18px;
+}
+.laydate-theme-extbtn .layui-laydate-top .laydate-top-btns span{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #001071;
+    border-radius: 10px;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    color: #001071;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.laydate-theme-extbtn .layui-laydate-main {
+    width: 273px;
+    background-color: #eeeeee;
+}
+/*---------------------header----------------------*/
+.laydate-theme-extbtn .layui-laydate-header{
+    height: 28px;
+    line-height: 28px;
+    background: #eeeeee;
+    padding: 0;
+    border: none;
+}
+.laydate-theme-extbtn .layui-laydate-header i {
+    width: 14px;
+    height: 14px;
+    top: 7px;
+    padding: 2px!important;
+    color: rgba(0,0,0,0)!important;
+}
+.laydate-theme-extbtn .layui-laydate-header i:hover {
+    background-color: #d5d8eb;
+    border-radius: 3px;
+}
+.laydate-theme-extbtn .layui-laydate-header i.laydate-prev-y {
+    content: url("../prev-y.png");
+}
+.laydate-theme-extbtn .layui-laydate-header i.laydate-prev-m {
+    content: url(../prev-m.png);
+}
+.laydate-theme-extbtn .layui-laydate-header i.laydate-next-m {
+    content: url(../next-m.png);
+}
+.laydate-theme-extbtn .layui-laydate-header i.laydate-next-y {
+    content: url(../next-y.png);
+}
+.laydate-theme-extbtn .laydate-set-ym {
+    height: 100%;
+    line-height: 20px;
+    padding-top: 4px;
+}
+.laydate-theme-extbtn .laydate-set-ym>span {
+    padding: 0 3px;
+    color: #001071;
+    font-size: 14px!important;
+    font-weight: 400!important;
+    font-family: "Microsoft YaHei"!important;
+}
+.laydate-theme-extbtn .laydate-set-ym>span:first-of-type {
+    margin-right: 10px;
+}
+.laydate-theme-extbtn .laydate-set-ym>span:hover {
+    color: #001071;
+    border-radius: 3px;
+    background-color: #d5d8eb;
+}
+/*---------------------content----------------------*/
+.laydate-theme-extbtn .layui-laydate-content {
+    background-color: #ffffff;
+    height: 214px;
+    padding: 0 14px;
+}
+.laydate-theme-extbtn .laydate-main-list-0 .layui-laydate-content {
+    margin: 0 2px 10px 10px ;
+}
+.laydate-theme-extbtn .laydate-main-list-1 .layui-laydate-content {
+    margin: 0 10px 10px 0 ;
+    border-left: none!important;
+}
+.laydate-theme-extbtn .layui-laydate-content th {
+    height: 34px;
+    width: 36px;
+    line-height: 34px;
+    padding: 0;
+}
+.laydate-theme-extbtn .layui-laydate-content td {
+    height: 28px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+.laydate-theme-extbtn .layui-laydate-content .laydate-day-prev,
+.laydate-theme-extbtn .layui-laydate-content .laydate-day-next {
+    color: #999999;
+}
+.laydate-theme-extbtn .layui-laydate-content td:hover {
+    background-color: #d5d8eb!important;
+}
+.laydate-theme-extbtn .layui-laydate-content .layui-this {
+    background-color: #4b569d!important;
+    font-weight: bold;
+}
+.laydate-theme-extbtn .layui-laydate-content .layui-this:hover {
+    background-color: #4b569d!important;
+    font-weight: bold;
+}
+.laydate-theme-extbtn .layui-laydate-content td.laydate-selected {
+    background-color: #d5d8eb;
+}
+/*---------------------footer----------------------*/
+.laydate-theme-extbtn .layui-laydate-footer {
+    border: none;
+    height: 36px;
+    padding: 0;
+}
+.laydate-theme-extbtn .layui-laydate-footer .laydate-footer-btns {
+    top: 6px;
+    right: 0;
+}
+.laydate-theme-extbtn .laydate-footer-btns span {
+    width: 44px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+    margin-right: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.laydate-theme-extbtn .laydate-footer-btns span:hover {
+    color: #ffffff;
+}
+
+.laydate-theme-extbtn .laydate-footer-btns .laydate-btns-confirm {
+    background-color: #4b569d;
+}
+.laydate-theme-extbtn .laydate-footer-btns .laydate-btns-clear {
+    background-color: #aaaaaa;
+}
